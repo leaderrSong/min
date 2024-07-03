@@ -12,7 +12,7 @@ actions:
   link: https://blog.csdn.net/leader_song
   type: secondary
 - text: 关于我
-  link: /about.html
+  link: https://github.com/leaderrSong/min/actions/runs/9784875330
   type: secondary
 
 features:
