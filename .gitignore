@@ -1,2 +1,5 @@
 /docs/.vuepress/.cache/
 /docs/.vuepress/.temp/
+/.github/
+/docs/get-started.md
+/docs/README.md
