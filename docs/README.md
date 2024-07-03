@@ -6,13 +6,13 @@ heroText: 正在建设ING
 tagline: 繁星似海 熠熠生辉
 actions:
 - text: 快速开始
-  link: /get-started
+  link: /get-started.html
   type: primary
 - text: 博客
   link: https://blog.csdn.net/leader_song
   type: secondary
 - text: 关于我
-  link: /about
+  link: /about.html
   type: secondary
 
 features:
