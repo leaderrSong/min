@@ -5,11 +5,26 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build docs",
+    "build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "docs:update-package": "npx vp-update"
   },
+  "keywords": [
+    "java",
+    "大学生java 就业",
+    "架构师",
+    "java 架构师",
+    "大厂Java 面试",
+    "百度面试算法"
+  ],
+  "author": "小宋科技",
+  "homepage": "https://blog.csdn.net/leader_song",
+  "repository": {
+    "type": "git",
+    "url": "你的仓库地址"
+  },
+
   "devDependencies": {
     "@vuepress/bundler-webpack": "^2.0.0-rc.7",
     "@vuepress/theme-default": "^2.0.0-rc.11",
