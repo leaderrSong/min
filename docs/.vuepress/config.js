@@ -7,7 +7,6 @@ import {zhSidebar,enSidebar,} from './sidebar/switch.js'
 export default defineUserConfig({
   head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   lang: 'zh-CN',
-  base: '/min/',
   title: 'TuTOU123com',
   description: 'My  blog',
 
