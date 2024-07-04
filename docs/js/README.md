@@ -10,7 +10,7 @@ title: 目录
 **Java** (全文25w字)
 * [1.数据结构.md](../js/1.date.md)
 
-* [2.JAVA基础.md](../js/2.JAVA.md)
+* [2.JAVA基础.md](https://www.runoob.com/java/java-basic-syntax.html)
 
 * [3.集合面试总集.md](../js/3.collete.md)
 
