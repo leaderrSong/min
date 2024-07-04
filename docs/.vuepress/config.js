@@ -25,7 +25,7 @@ export default defineUserConfig({
   // 配置主题
   // themeConfig: {
   //   logo: 'https://vuejs.press/images/hero.png',
-  //   repo: 'leaderrSong/leaderrSong.github.io',
+  //   repo: 'leaderrSong/me',
   //   locales: {
   //     '/': {
   //       selectLanguageName: '简体中文',
@@ -40,7 +40,7 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-    repo: 'leaderrSong/leaderrSong.github.io',
+    repo: 'leaderrSong/min',
     locales: {
       '/': {
         selectLanguageName: '简体中文',
