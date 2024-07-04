@@ -3,9 +3,9 @@ import { defineUserConfig } from 'vuepress/cli'
 import { webpackBundler } from '@vuepress/bundler-webpack'
 import { zhNavbar, enNavbar } from './navbar/switch.js' // 移除多余的逗号
 import {zhSidebar,enSidebar,} from './sidebar/switch.js'
-
+// favicon.ico
 export default defineUserConfig({
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   lang: 'zh-CN',
   base: '/min/',
   title: 'TuTOU123com',
