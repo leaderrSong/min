@@ -6,12 +6,13 @@ export const zhSidebar = {
             collapsible: true,
             children: [
                 {
-                    text:'变量',
-                    link:'other'
+                    text:'1.数据结构',
+                    link:'date'
                 },
+
                 {
                     text:'3.集合',
-                    link:'3.collet'
+                    link:'3. collet'
                 },
                 {
                     text:'4.Mysql',
@@ -20,6 +21,13 @@ export const zhSidebar = {
                 {
                     text:'5.多线程',
                     link:'5.line'
+                },
+
+
+
+                {
+                    text:'8.Git+Maven+Jwt+Nginx',
+                    link:'other'
                 },
                 ],
         }
