@@ -12,20 +12,20 @@ export const zhNavbar = [
         children:
             [
                 {
-                    text: '程序',
+                    text: '八股',
                     children:
                         [
-                            { text: 'C', link: 'https://code.iglooblog.top/c/1.html' },
-                            { text: 'Js', link: '/js/' }
+                            { text: '博客', link: 'https://blog.csdn.net/leader_song' },
+                            { text: '八股', link: '/js/' }
                         ]
                 },
                 {
-                    text: '标记',
+                    text: '网站',
                     children:
                         [
-                            { text: 'HTML', link: 'https://code.iglooblog.top/html/1.html' },
-                            { text: 'Markdown', link: 'https://1m29yg5p67.k.topthink.com/@markdown' },
-                            { text: 'CSS', link: 'https://code.iglooblog.top/css/1.html' }
+                            { text: 'Java', link: 'https://code.iglooblog.top/html/1.html' },
+                            { text: 'SpringCloud', link: 'https://1m29yg5p67.k.topthink.com/@markdown' },
+                            { text: 'Gitee', link: 'https://code.iglooblog.top/css/1.html' }
                         ]
                 },
             ],
