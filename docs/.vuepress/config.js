@@ -22,12 +22,21 @@ export default defineUserConfig({
       description: 'my book',
     },
   },
-
-
-
-
-
-
+  // 配置主题
+  // themeConfig: {
+  //   logo: 'https://vuejs.press/images/hero.png',
+  //   repo: 'leaderrSong/leaderrSong.github.io',
+  //   locales: {
+  //     '/': {
+  //       selectLanguageName: '简体中文',
+  //       selectLanguageText: '选择语言',
+  //       navbar: zhNavbar,
+  //       sidebar:zhSidebar,
+  //       notFound:['没找到','网页走丢了'],
+  //       backToHome:'返回首页'
+  //     },
+  //     '/en/': { // 注意这里的代码块结束应该对应
+  // }
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
@@ -37,6 +46,9 @@ export default defineUserConfig({
         selectLanguageName: '简体中文',
         selectLanguageText: '选择语言',
         navbar: zhNavbar,
+        sidebar:zhSidebar,
+        notFound:['没找到','网页走丢了'],
+        backToHome:'返回首页'
       },
       '/en/': { // 注意这里的代码块结束应该对应 '{' 开始，确保左右括号对齐
         selectLanguageName: 'English',
@@ -46,7 +58,7 @@ export default defineUserConfig({
         notFound:['没找到','网页走丢了'],
         backToHome:'返回首页'
 
-      }, // 移除多余的逗号
+      },
     },
   }),
   // 如果 webpackBundler 需要在配置中使用，请在此处添加相应的配置
