@@ -9,6 +9,18 @@ export const zhSidebar = {
                     text:'变量',
                     link:'other'
                 },
+                {
+                    text:'3.集合',
+                    link:'3.collet'
+                },
+                {
+                    text:'4.Mysql',
+                    link:'4.MySQL'
+                },
+                {
+                    text:'5.多线程',
+                    link:'5.line'
+                },
                 ],
         }
 
