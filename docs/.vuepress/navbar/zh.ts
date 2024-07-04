@@ -12,11 +12,12 @@ export const zhNavbar = [
         children:
             [
                 {
-                    text: '八股',
+                    text: '后端',
                     children:
                         [
-                            { text: '博客', link: 'https://blog.csdn.net/leader_song' },
-                            { text: '八股', link: '/js/' }
+                            { text: '八股文', link: '/js/' },
+                            { text: '博客', link: 'https://blog.csdn.net/leader_song' }
+
                         ]
                 },
                 {
@@ -34,8 +35,15 @@ export const zhNavbar = [
     {
         text: '工具',
         children: [
-            { text: '政治', link: 'politics' },
-            { text: '英语', link: 'english' }
+            { text: 'windows', link: 'politics' },
+            { text: 'mac', link: 'english' }
+        ],
+    },
+    {
+        text: '知识星球',
+        children: [
+            { text: '星球地址', link: 'politics' },
+            { text: '星球精华', link: 'english' }
         ],
     },
     {
